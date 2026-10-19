@@ -1,0 +1,10 @@
+{
+  "updatedAt": "2026-10-19",
+  "presets": [
+    {"label": "New national car", "rate": 2.6, "note": "Proton, Perodua · typical 2.3% – 3.0%"},
+    {"label": "New non-national", "rate": 2.8, "note": "Typical 2.5% – 3.3%"},
+    {"label": "Recond car", "rate": 3.3, "note": "Typical 3.0% – 3.8%"},
+    {"label": "Used car", "rate": 3.8, "note": "Typical 3.5% – 4.5%"}
+  ],
+  "banks": []
+}

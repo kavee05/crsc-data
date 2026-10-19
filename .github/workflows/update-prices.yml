@@ -1,0 +1,71 @@
+name: Update car prices
+
+on:
+  schedule:
+    - cron: "0 1 * * 1" # Mondays 09:00 Malaysia time
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update-prices
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test parsers against saved pages
+        working-directory: scraper
+        run: python -m unittest discover -s tests -t .
+
+      - name: Scrape official brand prices
+        id: scrape
+        working-directory: scraper
+        run: |
+          set +e
+          python -m crsc_scraper.run --out ..
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+
+      # 0 = normal changes: publish straight away.
+      - name: Publish
+        if: steps.scrape.outputs.code == '0' || steps.scrape.outputs.code == '1'
+        run: |
+          git config user.name "crsc-price-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalogue.json version.json
+          if git diff --cached --quiet; then
+            echo "No price changes this week."
+          else
+            git commit -m "Weekly price update $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      # 2 = something looks unusual: open a pull request so a person approves it.
+      - name: Open review pull request
+        if: steps.scrape.outputs.code == '2'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: price-review
+          delete-branch: true
+          commit-message: "Price update needing review"
+          title: "Car prices need your review"
+          body-path: report.md
+          add-paths: |
+            catalogue.json
+            version.json
+
+      # 1 = a brand's page changed and its parser broke. Failing the job makes GitHub email you.
+      - name: Fail if a brand could not be read
+        if: steps.scrape.outputs.code == '1'
+        run: |
+          cat report.md
+          exit 1

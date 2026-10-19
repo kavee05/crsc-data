@@ -1,0 +1,102 @@
+{
+ "3": {
+  "meta": {
+   "variant_id": 3,
+   "region": "peninsular-malaysia",
+   "model": "city",
+   "remarks": "success"
+  },
+  "payload": {
+   "peninsular-malaysia": {
+    "selling-price": "89,560.00",
+    "road-tax": "90.00",
+    "registration-fee": "150.00",
+    "handling-fee": "0.00",
+    "number-plate": "50.00",
+    "ownership-endorsement-fee": "50.00",
+    "sum-insured": "89,000.00",
+    "surcharge-for-white-orchird-pearl": "0.00",
+    "retail-price": "89,900.00",
+    "surcharge-for-platinum-white-pearl": "400.00",
+    "surcharge-for-platinum-white-pearl-test": "13.00",
+    "asd": "0.00",
+    "test": "0.00"
+   }
+  }
+ },
+ "4": {
+  "meta": {
+   "variant_id": 4,
+   "region": "peninsular-malaysia",
+   "model": "city",
+   "remarks": "success"
+  },
+  "payload": {
+   "peninsular-malaysia": {
+    "selling-price": "94,560.00",
+    "road-tax": "90.00",
+    "registration-fee": "150.00",
+    "handling-fee": "0.00",
+    "number-plate": "50.00",
+    "ownership-endorsement-fee": "50.00",
+    "sum-insured": "94,000.00",
+    "surcharge-for-white-orchird-pearl": "0.00",
+    "retail-price": "94,900.00",
+    "surcharge-for-platinum-white-pearl": "400.00",
+    "surcharge-for-platinum-white-pearl-test": "13.00",
+    "asd": "0.00",
+    "test": "0.00"
+   }
+  }
+ },
+ "54": {
+  "meta": {
+   "variant_id": 54,
+   "region": "peninsular-malaysia",
+   "model": "city",
+   "remarks": "success"
+  },
+  "payload": {
+   "peninsular-malaysia": {
+    "selling-price": "99,560.00",
+    "road-tax": "90.00",
+    "registration-fee": "150.00",
+    "handling-fee": "0.00",
+    "number-plate": "50.00",
+    "ownership-endorsement-fee": "50.00",
+    "sum-insured": "99,000.00",
+    "surcharge-for-white-orchird-pearl": "0.00",
+    "retail-price": "99,900.00",
+    "surcharge-for-platinum-white-pearl": "400.00",
+    "surcharge-for-platinum-white-pearl-test": "13.00",
+    "asd": "0.00",
+    "test": "0.00"
+   }
+  }
+ },
+ "41": {
+  "meta": {
+   "variant_id": 41,
+   "region": "peninsular-malaysia",
+   "model": "city",
+   "remarks": "success"
+  },
+  "payload": {
+   "peninsular-malaysia": {
+    "selling-price": "111,560.00",
+    "road-tax": "90.00",
+    "registration-fee": "150.00",
+    "handling-fee": "0.00",
+    "number-plate": "50.00",
+    "ownership-endorsement-fee": "50.00",
+    "sum-insured": "111,000.00",
+    "surcharge-for-white-orchird-pearl": "0.00",
+    "retail-price": "111,900.00",
+    "surcharge-for-platinum-white-pearl": "400.00",
+    "surcharge-for-platinum-white-pearl-test": "13.00",
+    "asd": "0.00",
+    "test": "0.00"
+   }
+  }
+ }
+}

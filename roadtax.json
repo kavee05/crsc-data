@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "penSaloonIndividual": [
+    {"fromCc": 0, "toCc": 1000, "base": 20},
+    {"fromCc": 1000, "toCc": 1200, "base": 55},
+    {"fromCc": 1200, "toCc": 1400, "base": 70},
+    {"fromCc": 1400, "toCc": 1600, "base": 90},
+    {"fromCc": 1600, "toCc": 1800, "base": 200, "perCc": 0.40},
+    {"fromCc": 1800, "toCc": 2000, "base": 280, "perCc": 0.50},
+    {"fromCc": 2000, "toCc": 2500, "base": 380, "perCc": 1.00},
+    {"fromCc": 2500, "toCc": 3000, "base": 880, "perCc": 2.50},
+    {"fromCc": 3000, "base": 2130, "perCc": 4.50}
+  ],
+  "penSaloonCompany": [
+    {"fromCc": 0, "toCc": 1000, "base": 20},
+    {"fromCc": 1000, "toCc": 1200, "base": 110},
+    {"fromCc": 1200, "toCc": 1400, "base": 140},
+    {"fromCc": 1400, "toCc": 1600, "base": 180},
+    {"fromCc": 1600, "toCc": 1800, "base": 400, "perCc": 0.80},
+    {"fromCc": 1800, "toCc": 2000, "base": 560, "perCc": 1.00},
+    {"fromCc": 2000, "toCc": 2500, "base": 760, "perCc": 3.00},
+    {"fromCc": 2500, "toCc": 3000, "base": 2260, "perCc": 7.50},
+    {"fromCc": 3000, "base": 6010, "perCc": 13.50}
+  ],
+  "penNonSaloon": [
+    {"fromCc": 0, "toCc": 1000, "base": 20},
+    {"fromCc": 1000, "toCc": 1200, "base": 85},
+    {"fromCc": 1200, "toCc": 1400, "base": 100},
+    {"fromCc": 1400, "toCc": 1600, "base": 120},
+    {"fromCc": 1600, "toCc": 1800, "base": 300, "perCc": 0.30},
+    {"fromCc": 1800, "toCc": 2000, "base": 360, "perCc": 0.40},
+    {"fromCc": 2000, "toCc": 2500, "base": 440, "perCc": 0.80},
+    {"fromCc": 2500, "toCc": 3000, "base": 840, "perCc": 1.60},
+    {"fromCc": 3000, "base": 1640, "perCc": 1.60}
+  ],
+  "emsSaloon": [
+    {"fromCc": 0, "toCc": 1000, "base": 20},
+    {"fromCc": 1000, "toCc": 1200, "base": 44},
+    {"fromCc": 1200, "toCc": 1400, "base": 56},
+    {"fromCc": 1400, "toCc": 1600, "base": 72},
+    {"fromCc": 1600, "toCc": 1800, "base": 160, "perCc": 0.32},
+    {"fromCc": 1800, "toCc": 2000, "base": 224, "perCc": 0.25},
+    {"fromCc": 2000, "toCc": 2500, "base": 274, "perCc": 0.50},
+    {"fromCc": 2500, "toCc": 3000, "base": 524, "perCc": 1.00},
+    {"fromCc": 3000, "base": 1024, "perCc": 1.35}
+  ],
+  "emsNonSaloon": [
+    {"fromCc": 0, "toCc": 1000, "base": 20},
+    {"fromCc": 1000, "toCc": 1200, "base": 42.50},
+    {"fromCc": 1200, "toCc": 1400, "base": 50},
+    {"fromCc": 1400, "toCc": 1600, "base": 60},
+    {"fromCc": 1600, "toCc": 1800, "base": 165, "perCc": 0.17},
+    {"fromCc": 1800, "toCc": 2000, "base": 199, "perCc": 0.22},
+    {"fromCc": 2000, "toCc": 2500, "base": 243, "perCc": 0.44},
+    {"fromCc": 2500, "toCc": 3000, "base": 463, "perCc": 0.88},
+    {"fromCc": 3000, "base": 903, "perCc": 1.20}
+  ],
+  "islandFactor": 0.5,
+  "islandFlatUpToCc": 1000,
+  "ev": [
+    {"fromKw": 0, "toKw": 100, "min": 20, "increment": 10, "max": 70, "firstBlockEndKw": 50},
+    {"fromKw": 100, "toKw": 210, "min": 80, "increment": 20, "max": 280, "firstBlockEndKw": 110},
+    {"fromKw": 210, "toKw": 310, "min": 305, "increment": 30, "max": 575, "firstBlockEndKw": 220},
+    {"fromKw": 310, "toKw": 410, "min": 615, "increment": 50, "max": 1065, "firstBlockEndKw": 320},
+    {"fromKw": 410, "toKw": 510, "min": 1140, "increment": 100, "max": 2040, "firstBlockEndKw": 420},
+    {"fromKw": 510, "toKw": 610, "min": 2165, "increment": 150, "max": 3515, "firstBlockEndKw": 520},
+    {"fromKw": 610, "toKw": 710, "min": 3690, "increment": 200, "max": 5490, "firstBlockEndKw": 620},
+    {"fromKw": 710, "toKw": 810, "min": 5715, "increment": 250, "max": 7965, "firstBlockEndKw": 720},
+    {"fromKw": 810, "toKw": 910, "min": 8240, "increment": 300, "max": 10940, "firstBlockEndKw": 820},
+    {"fromKw": 910, "toKw": 1010, "min": 11265, "increment": 350, "max": 14415, "firstBlockEndKw": 920},
+    {"fromKw": 1010, "min": 20000, "increment": 0, "max": 20000, "firstBlockEndKw": 1010}
+  ]
+}
