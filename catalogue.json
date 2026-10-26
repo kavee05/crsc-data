@@ -1,6 +1,6 @@
 {
- "version": 2,
- "updatedAt": "2026-10-19",
+ "version": 3,
+ "updatedAt": "2026-10-26",
  "variants": [
   {
    "brand": "Chery",
@@ -176,32 +176,6 @@
   {
    "brand": "Honda",
    "model": "City Hatchback",
-   "variant": "1.5L S",
-   "price": 85900.0,
-   "cc": 1498,
-   "fuel": "Petrol",
-   "body": "Hatchback",
-   "transmission": "CVT",
-   "sourceUrl": "https://www.honda.com.my/model/city-hatchback/pricing",
-   "updatedAt": "2026-10-19",
-   "id": "honda-city-hatchback-1-5l-s"
-  },
-  {
-   "brand": "Honda",
-   "model": "City Hatchback",
-   "variant": "1.5L E",
-   "price": 90900.0,
-   "cc": 1498,
-   "fuel": "Petrol",
-   "body": "Hatchback",
-   "transmission": "CVT",
-   "sourceUrl": "https://www.honda.com.my/model/city-hatchback/pricing",
-   "updatedAt": "2026-10-19",
-   "id": "honda-city-hatchback-1-5l-e"
-  },
-  {
-   "brand": "Honda",
-   "model": "City Hatchback",
    "variant": "1.5L V",
    "price": 95900.0,
    "cc": 1498,
@@ -220,8 +194,9 @@
    "cc": 1498,
    "fuel": "Petrol",
    "body": "Hatchback",
+   "transmission": "CVT",
    "sourceUrl": "https://www.honda.com.my/model/city-hatchback/pricing",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-10-26",
    "id": "honda-city-hatchback-1-5l-rs"
   },
   {
@@ -232,8 +207,9 @@
    "cc": 1498,
    "fuel": "Hybrid",
    "body": "Hatchback",
+   "transmission": "e-CVT",
    "sourceUrl": "https://www.honda.com.my/model/city-hatchback/pricing",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-10-26",
    "id": "honda-city-hatchback-1-5l-e-hev-rs"
   },
   {
