@@ -1,6 +1,6 @@
 {
- "version": 2,
- "updatedAt": "2026-10-19",
+ "version": 3,
+ "updatedAt": "2026-11-02",
  "variants": [
   {
    "brand": "Chery",
@@ -176,32 +176,6 @@
   {
    "brand": "Honda",
    "model": "City Hatchback",
-   "variant": "1.5L S",
-   "price": 85900.0,
-   "cc": 1498,
-   "fuel": "Petrol",
-   "body": "Hatchback",
-   "transmission": "CVT",
-   "sourceUrl": "https://www.honda.com.my/model/city-hatchback/pricing",
-   "updatedAt": "2026-10-19",
-   "id": "honda-city-hatchback-1-5l-s"
-  },
-  {
-   "brand": "Honda",
-   "model": "City Hatchback",
-   "variant": "1.5L E",
-   "price": 90900.0,
-   "cc": 1498,
-   "fuel": "Petrol",
-   "body": "Hatchback",
-   "transmission": "CVT",
-   "sourceUrl": "https://www.honda.com.my/model/city-hatchback/pricing",
-   "updatedAt": "2026-10-19",
-   "id": "honda-city-hatchback-1-5l-e"
-  },
-  {
-   "brand": "Honda",
-   "model": "City Hatchback",
    "variant": "1.5L V",
    "price": 95900.0,
    "cc": 1498,
@@ -220,8 +194,9 @@
    "cc": 1498,
    "fuel": "Petrol",
    "body": "Hatchback",
+   "transmission": "CVT",
    "sourceUrl": "https://www.honda.com.my/model/city-hatchback/pricing",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-11-02",
    "id": "honda-city-hatchback-1-5l-rs"
   },
   {
@@ -232,8 +207,9 @@
    "cc": 1498,
    "fuel": "Hybrid",
    "body": "Hatchback",
+   "transmission": "e-CVT",
    "sourceUrl": "https://www.honda.com.my/model/city-hatchback/pricing",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-11-02",
    "id": "honda-city-hatchback-1-5l-e-hev-rs"
   },
   {
@@ -634,62 +610,16 @@
   },
   {
    "brand": "Perodua",
-   "model": "Alza",
-   "variant": "1.5L X",
-   "price": 62500.0,
-   "cc": 1496,
-   "fuel": "Petrol",
-   "body": "MPV",
-   "seats": 7,
-   "transmission": "D-CVT",
-   "imageUrl": "https://www.perodua.com.my/img.php?a=images/CarSpec/Alza/Alza-Spec02-1.5L-X.webp&w=320&v=2",
-   "sourceUrl": "https://www.perodua.com.my/our-models/mpv/new-alza",
-   "updatedAt": "2026-10-19",
-   "id": "perodua-alza-1-5l-x"
-  },
-  {
-   "brand": "Perodua",
-   "model": "Alza",
-   "variant": "1.5L H",
-   "price": 68000.0,
-   "cc": 1496,
-   "fuel": "Petrol",
-   "body": "MPV",
-   "seats": 7,
-   "transmission": "D-CVT",
-   "imageUrl": "https://www.perodua.com.my/img.php?a=images/CarSpec/Alza/Alza-Spec02-1.5L-H.webp&w=320&v=2",
-   "sourceUrl": "https://www.perodua.com.my/our-models/mpv/new-alza",
-   "updatedAt": "2026-10-19",
-   "id": "perodua-alza-1-5l-h"
-  },
-  {
-   "brand": "Perodua",
-   "model": "Alza",
-   "variant": "1.5L AV",
-   "price": 75500.0,
-   "cc": 1496,
-   "fuel": "Petrol",
-   "body": "MPV",
-   "seats": 7,
-   "transmission": "D-CVT",
-   "imageUrl": "https://www.perodua.com.my/img.php?a=images/CarSpec/Alza/Alza-Spec01-1.5L-AV.webp&w=320&v=2",
-   "sourceUrl": "https://www.perodua.com.my/our-models/mpv/new-alza",
-   "updatedAt": "2026-10-19",
-   "id": "perodua-alza-1-5l-av"
-  },
-  {
-   "brand": "Perodua",
    "model": "Aruz",
    "variant": "1.5 X",
    "price": 68900.0,
    "cc": 1496,
    "fuel": "Petrol",
    "body": "SUV",
-   "seats": 7,
    "transmission": "Automatic",
    "imageUrl": "https://www.perodua.com.my/img.php?a=images/CarSpec/Aruz/aruz_ivorywhite_1_5av_2x.webp&w=320&v=2",
    "sourceUrl": "https://www.perodua.com.my/our-models/suv/aruz",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-11-02",
    "id": "perodua-aruz-1-5-x"
   },
   {
@@ -700,11 +630,10 @@
    "cc": 1496,
    "fuel": "Petrol",
    "body": "SUV",
-   "seats": 7,
    "transmission": "Automatic",
    "imageUrl": "https://www.perodua.com.my/img.php?a=images/CarSpec/Aruz/aruz_brown_1_5av_img_2x.webp&w=320&v=2",
    "sourceUrl": "https://www.perodua.com.my/our-models/suv/aruz",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-11-02",
    "id": "perodua-aruz-1-5-av"
   },
   {
@@ -715,10 +644,9 @@
    "cc": 998,
    "fuel": "Petrol",
    "body": "SUV",
-   "seats": 5,
    "imageUrl": "https://www.perodua.com.my/img.php?a=images/CarSpec/Ativa/price-and-specs-ativa-silver.webp&w=240&v=2",
    "sourceUrl": "https://www.perodua.com.my/our-models/suv/ativa",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-11-02",
    "id": "perodua-ativa-1-0l-turbo-x-metallic"
   },
   {
@@ -729,10 +657,9 @@
    "cc": 998,
    "fuel": "Petrol",
    "body": "SUV",
-   "seats": 5,
-   "imageUrl": "https://www.perodua.com.my/img.php?a=images/CarSpec/Ativa/price-and-specs-ativa-blue.webp&w=240&v=2",
+   "imageUrl": "https://www.perodua.com.my/img.php?a=images/CarSpec/Ativa/price-and-specs-ativa-grey.webp&w=240&v=2",
    "sourceUrl": "https://www.perodua.com.my/our-models/suv/ativa",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-11-02",
    "id": "perodua-ativa-1-0l-turbo-h-metallic"
   },
   {
@@ -743,10 +670,9 @@
    "cc": 998,
    "fuel": "Petrol",
    "body": "SUV",
-   "seats": 5,
    "imageUrl": "https://www.perodua.com.my/img.php?a=images/CarSpec/Ativa/price-and-specs-ativa-white.webp&w=240&v=2",
    "sourceUrl": "https://www.perodua.com.my/our-models/suv/ativa",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-11-02",
    "id": "perodua-ativa-1-0l-turbo-h-special-metallic"
   },
   {
@@ -757,10 +683,9 @@
    "cc": 998,
    "fuel": "Petrol",
    "body": "SUV",
-   "seats": 5,
-   "imageUrl": "https://www.perodua.com.my/img.php?a=images/CarSpec/Ativa/price-and-specs-ativa-grey.webp&w=240&v=2",
+   "imageUrl": "https://www.perodua.com.my/img.php?a=images/CarSpec/Ativa/price-and-specs-ativa-cblue.webp&w=240&v=2",
    "sourceUrl": "https://www.perodua.com.my/our-models/suv/ativa",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-11-02",
    "id": "perodua-ativa-1-0l-turbo-av-metallic"
   },
   {
@@ -771,10 +696,9 @@
    "cc": 998,
    "fuel": "Petrol",
    "body": "SUV",
-   "seats": 5,
    "imageUrl": "https://www.perodua.com.my/img.php?a=images/CarSpec/Ativa/price-and-specs-ativa-red.webp&w=240&v=2",
    "sourceUrl": "https://www.perodua.com.my/our-models/suv/ativa",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-11-02",
    "id": "perodua-ativa-1-0l-turbo-av-special-metallic"
   },
   {
@@ -785,10 +709,9 @@
    "cc": 998,
    "fuel": "Petrol",
    "body": "SUV",
-   "seats": 5,
    "imageUrl": "https://www.perodua.com.my/img.php?a=images/CarSpec/Ativa/price-and-specs-ativa-redblack.webp&w=240&v=2",
    "sourceUrl": "https://www.perodua.com.my/our-models/suv/ativa",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-11-02",
    "id": "perodua-ativa-1-0l-turbo-av-2-tone-special-metallic-black-roof"
   },
   {
@@ -799,11 +722,10 @@
    "cc": 998,
    "fuel": "Petrol",
    "body": "Hatchback",
-   "seats": 5,
    "transmission": "Manual",
    "imageUrl": "https://www.perodua.com.my/img.php?a=images/CarSpec/Axia/Axia-E.webp&w=320&v=2",
    "sourceUrl": "https://www.perodua.com.my/our-models/hatchback/axia",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-11-02",
    "id": "perodua-axia-1-0l-e"
   },
   {
@@ -814,11 +736,10 @@
    "cc": 998,
    "fuel": "Petrol",
    "body": "Hatchback",
-   "seats": 5,
    "transmission": "D-CVT",
    "imageUrl": "https://www.perodua.com.my/img.php?a=images/CarSpec/Axia/Axia-G.webp&w=320&v=2",
    "sourceUrl": "https://www.perodua.com.my/our-models/hatchback/axia",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-11-02",
    "id": "perodua-axia-1-0l-g"
   },
   {
@@ -829,11 +750,10 @@
    "cc": 998,
    "fuel": "Petrol",
    "body": "Hatchback",
-   "seats": 5,
    "transmission": "D-CVT",
    "imageUrl": "https://www.perodua.com.my/img.php?a=images/CarSpec/Axia/Axia-X.webp&w=320&v=2",
    "sourceUrl": "https://www.perodua.com.my/our-models/hatchback/axia",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-11-02",
    "id": "perodua-axia-1-0l-x"
   },
   {
@@ -844,11 +764,10 @@
    "cc": 998,
    "fuel": "Petrol",
    "body": "Hatchback",
-   "seats": 5,
    "transmission": "D-CVT",
    "imageUrl": "https://www.perodua.com.my/img.php?a=images/CarSpec/Axia/Axia-SE.webp&w=320&v=2",
    "sourceUrl": "https://www.perodua.com.my/our-models/hatchback/axia",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-11-02",
    "id": "perodua-axia-1-0l-se"
   },
   {
@@ -859,11 +778,10 @@
    "cc": 998,
    "fuel": "Petrol",
    "body": "Hatchback",
-   "seats": 5,
    "transmission": "D-CVT",
    "imageUrl": "https://www.perodua.com.my/img.php?a=images/CarSpec/Axia/Axia-AV.webp&w=320&v=2",
    "sourceUrl": "https://www.perodua.com.my/our-models/hatchback/axia",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-11-02",
    "id": "perodua-axia-1-0l-av"
   },
   {
@@ -874,11 +792,10 @@
    "cc": 998,
    "fuel": "Petrol",
    "body": "Sedan",
-   "seats": 5,
    "transmission": "Automatic",
    "imageUrl": "https://www.perodua.com.my/img.php?a=images/CarSpec/Bezza/Prize_and_specification_Bezza_03.webp&w=320&v=2",
    "sourceUrl": "https://www.perodua.com.my/our-models/sedan/bezza",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-11-02",
    "id": "perodua-bezza-1-0-g"
   },
   {
@@ -889,11 +806,10 @@
    "cc": 1329,
    "fuel": "Petrol",
    "body": "Sedan",
-   "seats": 5,
    "transmission": "Automatic",
    "imageUrl": "https://www.perodua.com.my/img.php?a=images/CarSpec/Bezza/Prize_and_specification_Bezza_02.webp&w=320&v=2",
    "sourceUrl": "https://www.perodua.com.my/our-models/sedan/bezza",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-11-02",
    "id": "perodua-bezza-1-3-x"
   },
   {
@@ -904,11 +820,10 @@
    "cc": 1329,
    "fuel": "Petrol",
    "body": "Sedan",
-   "seats": 5,
    "transmission": "Automatic",
    "imageUrl": "https://www.perodua.com.my/img.php?a=images/CarSpec/Bezza/Prize_and_specification_Bezza_01.webp&w=320&v=2",
    "sourceUrl": "https://www.perodua.com.my/our-models/sedan/bezza",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-11-02",
    "id": "perodua-bezza-1-3-av"
   },
   {
@@ -919,11 +834,10 @@
    "cc": 1329,
    "fuel": "Petrol",
    "body": "Hatchback",
-   "seats": 5,
    "transmission": "D-CVT",
    "imageUrl": "https://www.perodua.com.my/img.php?a=images/myvi_v2/11-Spec4.webp&w=320&v=2",
    "sourceUrl": "https://www.perodua.com.my/our-models/hatchback/myvi",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-11-02",
    "id": "perodua-myvi-1-3l-g-without-psda"
   },
   {
@@ -934,11 +848,10 @@
    "cc": 1329,
    "fuel": "Petrol",
    "body": "Hatchback",
-   "seats": 5,
    "transmission": "D-CVT",
    "imageUrl": "https://www.perodua.com.my/img.php?a=images/myvi_v2/11-Spec4.webp&w=320&v=2",
    "sourceUrl": "https://www.perodua.com.my/our-models/hatchback/myvi",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-11-02",
    "id": "perodua-myvi-1-3l-g"
   },
   {
@@ -949,11 +862,10 @@
    "cc": 1496,
    "fuel": "Petrol",
    "body": "Hatchback",
-   "seats": 5,
    "transmission": "D-CVT",
    "imageUrl": "https://www.perodua.com.my/img.php?a=images/myvi_v2/11-Spec3.webp&w=320&v=2",
    "sourceUrl": "https://www.perodua.com.my/our-models/hatchback/myvi",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-11-02",
    "id": "perodua-myvi-1-5l-x"
   },
   {
@@ -964,11 +876,10 @@
    "cc": 1496,
    "fuel": "Petrol",
    "body": "Hatchback",
-   "seats": 5,
    "transmission": "D-CVT",
    "imageUrl": "https://www.perodua.com.my/img.php?a=images/myvi_v2/11-Spec2.webp&w=320&v=2",
    "sourceUrl": "https://www.perodua.com.my/our-models/hatchback/myvi",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-11-02",
    "id": "perodua-myvi-1-5l-h"
   },
   {
@@ -979,12 +890,53 @@
    "cc": 1496,
    "fuel": "Petrol",
    "body": "Hatchback",
-   "seats": 5,
    "transmission": "D-CVT",
    "imageUrl": "https://www.perodua.com.my/img.php?a=images/myvi_v2/11-Spec1.webp&w=320&v=2",
    "sourceUrl": "https://www.perodua.com.my/our-models/hatchback/myvi",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-11-02",
    "id": "perodua-myvi-1-5l-av"
+  },
+  {
+   "brand": "Perodua",
+   "model": "New Alza",
+   "variant": "Alza 1.5L X",
+   "price": 62500.0,
+   "cc": 1496,
+   "fuel": "Petrol",
+   "body": "MPV",
+   "transmission": "D-CVT",
+   "imageUrl": "https://www.perodua.com.my/img.php?a=images/CarSpec/Alza/Alza-Spec02-1.5L-X.webp&w=320&v=2",
+   "sourceUrl": "https://www.perodua.com.my/our-models/mpv/new-alza",
+   "updatedAt": "2026-11-02",
+   "id": "perodua-new-alza-alza-1-5l-x"
+  },
+  {
+   "brand": "Perodua",
+   "model": "New Alza",
+   "variant": "Alza 1.5L H",
+   "price": 68000.0,
+   "cc": 1496,
+   "fuel": "Petrol",
+   "body": "MPV",
+   "transmission": "D-CVT",
+   "imageUrl": "https://www.perodua.com.my/img.php?a=images/CarSpec/Alza/Alza-Spec02-1.5L-H.webp&w=320&v=2",
+   "sourceUrl": "https://www.perodua.com.my/our-models/mpv/new-alza",
+   "updatedAt": "2026-11-02",
+   "id": "perodua-new-alza-alza-1-5l-h"
+  },
+  {
+   "brand": "Perodua",
+   "model": "New Alza",
+   "variant": "Alza 1.5L AV",
+   "price": 75500.0,
+   "cc": 1496,
+   "fuel": "Petrol",
+   "body": "MPV",
+   "transmission": "D-CVT",
+   "imageUrl": "https://www.perodua.com.my/img.php?a=images/CarSpec/Alza/Alza-Spec01-1.5L-AV.webp&w=320&v=2",
+   "sourceUrl": "https://www.perodua.com.my/our-models/mpv/new-alza",
+   "updatedAt": "2026-11-02",
+   "id": "perodua-new-alza-alza-1-5l-av"
   },
   {
    "brand": "Perodua",
@@ -994,11 +946,10 @@
    "cc": 1496,
    "fuel": "Petrol",
    "body": "SUV",
-   "seats": 5,
    "transmission": "D-CVT",
    "imageUrl": "https://www.perodua.com.my/img.php?a=car/traz/traz_x_variant_2x.webp&w=1920&v=2",
    "sourceUrl": "https://www.perodua.com.my/our-models/suv/traz",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-11-02",
    "id": "perodua-traz-1-5-x"
   },
   {
@@ -1009,11 +960,10 @@
    "cc": 1496,
    "fuel": "Petrol",
    "body": "SUV",
-   "seats": 5,
    "transmission": "D-CVT",
    "imageUrl": "https://www.perodua.com.my/img.php?a=car/traz/traz_h_2t_variant_2x.webp&w=360&v=2",
    "sourceUrl": "https://www.perodua.com.my/our-models/suv/traz",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-11-02",
    "id": "perodua-traz-1-5-h"
   },
   {
@@ -1024,11 +974,10 @@
    "cc": 1496,
    "fuel": "Petrol",
    "body": "SUV",
-   "seats": 5,
    "transmission": "D-CVT",
    "imageUrl": "https://www.perodua.com.my/img.php?a=car/traz/traz_h_variant_2x.webp&w=360&v=2",
    "sourceUrl": "https://www.perodua.com.my/our-models/suv/traz",
-   "updatedAt": "2026-10-19",
+   "updatedAt": "2026-11-02",
    "id": "perodua-traz-1-5-h-2t"
   },
   {
